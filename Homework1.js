@@ -114,7 +114,7 @@ const specialCharacters = [
     
     else
     {
-    passwordLength = prompt("Please enter a number greater than or equals to 8.")
+    passwordLength = prompt("Please enter a number greater than or equal to 8.")
   
     }
   
@@ -125,15 +125,15 @@ const specialCharacters = [
   
   else
   {
-    passwordLength = prompt("Please enter a number lessthan or equals to 128.")
+    passwordLength = prompt("Please enter a number less than or equal to 128.")
   
   }
   
   var numbers = confirm("Do you want numbers in your password?");
   
-  var lowerCases = confirm("Do you want lowercases in your password?");
+  var lowerCases = confirm("Do you want lowercase letters in your password?");
   
-  var upperCases = confirm("Do you want uppercases in your password?");
+  var upperCases = confirm("Do you want uppercase letters in your password?");
   
   var special = confirm("Do you want special characters in your password?");
   
@@ -142,7 +142,7 @@ const specialCharacters = [
   
   else
   {
-    alert("You did not select any of the charector from the list!")
+    alert("You did not select any of the characters from the list!")
   
    
   }
